@@ -1,0 +1,41 @@
+{
+  "name": "triun/value-object",
+  "description": ".",
+  "license": "MIT",
+  "homepage": "https://github.com/Triun",
+  "support": {
+    "issues": "https://github.com/Triun/value-object/issues",
+    "source": "https://github.com/Triun/value-object"
+  },
+  "keywords": ["value", "object"],
+  "authors": [
+    {
+      "name": "Gonzalo Moreno"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "squizlabs/php_codesniffer": "^2.1"
+  },
+  "suggest": {
+    "triun/value-objects": "A collection of ValueObject's"
+  },
+  "autoload": {
+    "psr-4": {
+      "Triun\\ValueObject\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": ["tests/TestCase.php"]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
