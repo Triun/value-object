@@ -1,6 +1,6 @@
 <?php
 
-namespace Triun\ValueObject\Exceptions;
+namespace Triun\ValueObject;
 
 /**
  * Class InvalidNativeArgumentException
