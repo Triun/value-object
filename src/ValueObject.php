@@ -5,6 +5,11 @@ namespace Triun\ValueObject;
 /**
  * Interface ValueObject
  * @package Triun\ValueObject
+ *
+ * @link http://php.net/manual/en/function.func-get-arg.php
+ *
+ * @since 4.0
+ * @since 5.0
  */
 interface ValueObject
 {
