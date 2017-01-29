@@ -16,6 +16,13 @@ interface ValueObject
     public static function fromNative();
 
     /**
+     * Returns PHP native value(s)
+     *
+     * @return mixed
+     */
+    public function toNative();
+
+    /**
      * Compare two ValueObjectInterface and tells whether they can be considered equal.
      *
      * @param \Triun\ValueObject\ValueObject $object
