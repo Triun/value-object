@@ -20,7 +20,7 @@ In computer science, a value object is a small object that represents a simple e
 Require this package with composer using the following command:
 
 ```bash
-composer require triun/value-object:dev-master
+composer require triun/value-object
 ```
 
 ## Description
