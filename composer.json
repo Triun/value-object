@@ -1,13 +1,13 @@
 {
   "name": "triun/value-object",
-  "description": ".",
+  "description": "Value Object",
+  "keywords": ["value", "object"],
   "license": "MIT",
   "homepage": "https://github.com/Triun",
   "support": {
     "issues": "https://github.com/Triun/value-object/issues",
     "source": "https://github.com/Triun/value-object"
   },
-  "keywords": ["value", "object"],
   "authors": [
     {
       "name": "Gonzalo Moreno"
@@ -29,6 +29,8 @@
     }
   },
   "autoload-dev": {
-    "classmap": ["tests/StringLiteralTestCase.php"]
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
   }
 }
