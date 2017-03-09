@@ -33,9 +33,9 @@ class InvalidNativeArgumentExceptionTest extends TestCase
      *
      * @param mixed    $value
      * @param string[] $allowed_types
-     * @param string   $messege
+     * @param string   $message
      */
-    public function Exception_message_matches_RegExp($value, $allowed_types, $messege)
+    public function Exception_message_matches_RegExp($value, $allowed_types, $message)
     {
 //        $this->setExpectedExceptionRegExp(
 //            InvalidNativeArgumentException::class,
@@ -53,13 +53,13 @@ class InvalidNativeArgumentExceptionTest extends TestCase
      *
      * @param mixed    $value
      * @param string[] $allowed_types
-     * @param string   $messege
+     * @param string   $message
      */
-    public function Exception_is_text_generated_with_value_and_expecting_types_array($value, $allowed_types, $messege)
+    public function Exception_is_text_generated_with_value_and_expecting_types_array($value, $allowed_types, $message)
     {
         $this->setExpectedException(
             InvalidNativeArgumentException::class,
-            $messege,
+            $message,
             0
         );
 
