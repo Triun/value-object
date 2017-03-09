@@ -1,8 +1,7 @@
 <?php
-use PHPUnit\Framework\TestCase;
 use Triun\ValueObject\InvalidNativeArgumentException;
 
-class InvalidNativeArgumentExceptionTest extends TestCase
+class InvalidNativeArgumentExceptionTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test
