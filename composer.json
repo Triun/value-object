@@ -29,7 +29,7 @@
     }
   },
   "autoload-dev": {
-    "classmap": ["tests/TestCase.php"]
+    "classmap": ["tests/StringLiteralTestCase.php"]
   },
   "extra": {
     "branch-alias": {
