@@ -95,6 +95,8 @@ use Triun\ValueObject\Exceptions\InvalidNativeArgumentException;
 class StringLiteral implements ValueObject
 {
     /**
+     * Native string
+     *
      * @var string
      */
     protected $value;
@@ -102,7 +104,7 @@ class StringLiteral implements ValueObject
     /**
      * Returns a StringLiteral object given a PHP native string as parameter.
      *
-     * @param  string $value
+     * @internal param string $value
      * 
      * @return StringLiteral
      */
