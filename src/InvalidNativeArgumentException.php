@@ -18,14 +18,14 @@ class InvalidNativeArgumentException extends \InvalidArgumentException
      * InvalidNativeArgumentException constructor.
      *
      * @param string $value
-     * @param array  $allowed_types
+     * @param array  $allowedTypes
      */
-    public function __construct($value, array $allowed_types)
+    public function __construct($value, array $allowedTypes)
     {
         $this->message = sprintf(
             'Argument type "%s" is invalid. Allowed types for argument are "%s".',
             gettype($value),
-            implode('", "', $allowed_types)
+            implode('", "', $allowedTypes)
         );
     }
 }
